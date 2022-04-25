@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Input from "./Components/Input";
+import Input from "./Components/Dict/Dict";
 
 function App() {
   return (

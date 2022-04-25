@@ -1,0 +1,47 @@
+@import "./variables";
+
+
+
+
+//320px
+@mixin xsmall {
+    @media only screen and (min-width: $bp_xsmall) {
+        @content;
+    }
+}
+
+//768px
+@mixin small {
+    @media only screen and (min-width: $bp_small) {
+        @content;
+    }
+}
+
+//1024px
+@mixin medium {
+    @media only screen and (min-width: $bp_medium) {
+        @content;
+    }
+}
+
+
+//1366px
+@mixin large {
+    @media only screen and (min-width: $bp_large) {
+        @content;
+    }
+}
+
+//1920px
+@mixin xlarge {
+    @media only screen and (min-width: $bp_xlarge) {
+        @content;
+    }
+}
+
+//2560px
+@mixin xxlarge {
+    @media only screen and (min-width: $bp_xxlarge) {
+        @content;
+    }
+}
